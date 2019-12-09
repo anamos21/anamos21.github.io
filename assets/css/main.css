@@ -2158,7 +2158,6 @@ input, select, textarea {
 		background-color: #37a6cb;
 	}
 
-
 /* Image */
 
 	.image {
@@ -2800,7 +2799,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: #0A0F26;
+				background-color: rgba(36, 41, 67, 0.25);
 				content: '';
 				display: block;
 				height: 100%;
@@ -2833,7 +2832,6 @@ input, select, textarea {
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #5F6366;
-				/* #6fc3df; */
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -2853,7 +2851,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color:  #86B3D1;
+				background-color: #87c5a4;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2940,8 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #242943
-			/* background-color: #5F6366; */
+			background-color: #2e3450;
 		}
 
 			.spotlights > section > .image {
@@ -2998,7 +2995,7 @@ input, select, textarea {
 					width: 65em;
 				}
 
-			/* .spotlights > section:nth-child(2n) {
+			.spotlights > section:nth-child(2n) {
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
@@ -3011,22 +3008,7 @@ input, select, textarea {
 					-webkit-align-items: -webkit-flex-end;
 					-ms-align-items: -ms-flex-end;
 					align-items: flex-end;
-				} */
-
-				.spotlights > section:nth-child(2n){
-					-moz-flex-direction: row-reverse;
-					-webkit-flex-direction: row-reverse;
-					-ms-flex-direction: row-reverse;
-					flex-direction: row-reverse;
-					background-color: #242943
 				}
-
-					.spotlights > section:nth-child(2n) > .content {
-						-moz-align-items: -moz-flex-end;
-						-webkit-align-items: -webkit-flex-end;
-						-ms-align-items: -ms-flex-end;
-						align-items: flex-end;
-					}
 
 		@media screen and (max-width: 1680px) {
 
@@ -3513,7 +3495,7 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #2a2f4a;
+			background-color: #8d82c4;
 		}
 
 		#banner.style3:after {
@@ -3968,20 +3950,3 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
-
-		:root {
-	    color-scheme: light dark;
-	    /*--special-text-color: hsla(60, 50%, 70%, 0.75);
-	        --border-color: white;*/
-	    --background-color: #ccc
-	    --text-primary: #000;
-	}
-
-	@media (prefers-color-scheme: dark) {
-	    :root {
-	        /*--special-text-color: hsla(60, 50%, 70%, 0.75);
-	        --border-color: white;*/
-	        --background-color: #333;
-	        --text-primary: #fff;
-	    }
-	}
